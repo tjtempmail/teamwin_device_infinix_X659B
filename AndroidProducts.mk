@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_Infinix-X659B.mk
+    $(LOCAL_DIR)/twrp_X659B.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_Infinix-X659B-eng
+    twrp_X659B-eng
