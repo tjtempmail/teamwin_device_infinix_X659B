@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from Infinix-X659B device
-$(call inherit-product, device/infinix/Infinix-X659B/device.mk)
+# Inherit from X659B device
+$(call inherit-product, device/infinix/X659B/device.mk)
 
-PRODUCT_DEVICE := Infinix-X659B
-PRODUCT_NAME := twrp_Infinix-X659B
+PRODUCT_DEVICE := X659B
+PRODUCT_NAME := twrp_X659B
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X659B
 PRODUCT_MANUFACTURER := infinix
